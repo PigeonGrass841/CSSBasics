@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid #c4dcf3;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+th {
+    color: white;
+    background-color: #437fef;
+}

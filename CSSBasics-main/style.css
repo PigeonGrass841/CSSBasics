@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: darkseagreen;
+}
+
+th {
+    color: white;
+    background-color: #427fef;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+tr {
+    border: 1px solid #c4dcf3;
+}
+
+cell {
+    padding: 10px;
+}
+
+#box {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: thin solid lavender;
+    border-radius: 10px;
+    background-color: honeydew;
+    box-shadow: 10px 10px lightgrey;
+}
+
+/*The table heading has to use <text-align: left;> to appear as intended.*/
+/*When creating an HTML box, the class <.box> will not work as intended.*/
+/*Instead, we need to use the id #box for the HTML box to appear*/
